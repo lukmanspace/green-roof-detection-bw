@@ -7,6 +7,8 @@ This repository contains the publication-oriented Random Forest workflow develop
 > **Detecting Green Roofs in Baden-Württemberg by Integrating LoD2 CityGML and PlanetScope Imagery in a Supervised Machine Learning Framework**  
 > Lukman Hakim — M.Sc. Photogrammetry and Geoinformatics, Hochschule für Technik Stuttgart
 
+Visit map at: https://lukmanspace.github.io/green-roof-bw-map/
+
 ## Overview
 
 The project classifies individual **LoD2 roof planes** as:
