@@ -1,0 +1,41 @@
+{
+  "name": "Green Roof Random Forest Classifier",
+  "task": "binary classification",
+  "positive_class": "green roof",
+  "algorithm": "RandomForestClassifier",
+  "n_estimators": 600,
+  "min_samples_leaf": 2,
+  "class_weight": "balanced_subsample",
+  "random_state": 42,
+
+  "features": [
+    "slope_deg",
+    "area_m2",
+    "height_m",
+    "height_relief_m",
+    "G_avg_Winter",
+    "B_avg_Winter",
+    "NDVI_avg_Winter",
+    "NDVI_std_Winter",
+    "G_avg_Summer",
+    "B_avg_Summer",
+    "NDVI_avg_Summer",
+    "NDVI_std_Summer",
+    "roofType",
+    "function"
+  ],
+
+  "categorical_features": [
+    "roofType",
+    "function"
+  ],
+
+  "evaluation": {
+    "loco_pr_auc_mean": 0.6941,
+    "loco_pr_auc_std": 0.0954,
+    "loco_best_f1_mean": 0.6539,
+    "mixed_cv_pr_auc_mean": 0.8442,
+    "test_pr_auc": 0.8291,
+    "test_f1": 0.7409
+  }
+}

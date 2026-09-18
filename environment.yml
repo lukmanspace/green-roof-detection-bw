@@ -1,0 +1,22 @@
+name: geo
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python>=3.11,<3.14
+  - numpy
+  - pandas
+  - geopandas
+  - scikit-learn
+  - joblib
+  - pyarrow
+  - shapely
+  - pyproj
+  - pyogrio
+  - rasterio
+  - matplotlib
+  - jupyterlab
+  - notebook
+  - ipykernel
+  - tqdm

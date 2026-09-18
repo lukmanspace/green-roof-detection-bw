@@ -1,0 +1,16 @@
+LICENSE PLACEHOLDER
+
+Choose a license before publishing the repository.
+
+For code intended for broad reuse, common options include:
+
+- MIT License
+- BSD 3-Clause License
+- Apache License 2.0
+
+Important:
+The repository license applies only to material you have the right to license.
+Third-party datasets and imagery (including PlanetScope, LGL/BKG source data,
+Google imagery, Bing imagery, etc.) remain subject to their original terms.
+
+Once you choose a license, replace this file with the full license text.
